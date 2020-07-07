@@ -1,0 +1,130 @@
+body{
+	margin: 0px;
+	width:100%;
+}
+.bar{
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+	float: right;
+
+}
+
+ul#horizontal-list li {
+	    padding: 20px;
+		display: inline;
+		text-align: center;
+		color:#f9f9f9;
+		font-size: 20px;
+		font-weight: bold;
+	}
+#menu-outer {
+	height: 55px;
+	background-color: #ffacb7;
+}
+.home{
+	background-color: #ffe0ac;
+	text-align: center;
+	font-size: 30px;
+	height:100vh;
+}
+.home img{
+	padding-top: 86px;
+	height: 300px;
+	width:auto;
+}
+.about{
+	display:table;
+	margin: 0px;
+	background-image: url("https://image.freepik.com/free-photo/anonymous-user-clicking-pink-usb-computer-mouse_23-2148182077.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:100vh;
+	
+}
+.about div{
+	display:table-cell;
+	
+	width:50%;
+	float:left;
+	padding: 25px;
+}
+.about div h1{
+	font-size: 42px;
+	padding-bottom: 20px;
+}
+.about div p{
+	font-size: 25px;
+}
+.education{
+	background-color:#6886c5;
+	display:table;
+	height: 100vh;
+	width: 100%;
+}
+.education .inneredu{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.education .inneredu img{
+	width:16%;
+}
+.education .inneredu div{
+	width:30%;
+	margin-left: 10px;
+	margin-right: 10px;
+	float:left;
+}
+.education .inneredu #edu{
+	font-size: 80px;
+}
+.skills{
+	background-image: url("https://image.freepik.com/free-photo/paintbrush-color-palette-scissor-golden-spool-paper-scissor-pink-backdrop_23-2148137443.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	display:table;
+	height: 100vh;
+	width: 100%;
+}
+.skills .innersk{
+	display:table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    font-size: 35px;
+}
+.skills .innersk ul{
+	display:inline;
+	float:left;
+	margin-left:20px;
+}
+.hobbies{
+	background-image: url("https://img.freepik.com/free-photo/midsection-male-traveler-photographer-holding-camera-map-standing-against-blue-background_23-2148203069.jpg?size=626&ext=jpg&ga=GA1.2.171619866.1593885723");
+	background-repeat: no-repeat;
+	background-size:cover;
+	display:table;
+	height: 100vh;
+	width: 100%;
+}
+.hobbies .innerh{
+	display:table;
+    margin-top: 100px;
+    font-size: 35px;
+    float: right;
+    margin-right:90px;
+}
+.contact{
+	background-color: #ffacb7;
+    display:table;
+    vertical-align: middle;
+	height: 100vh;
+	width:100%;
+	text-align: center;
+}
+.contact .innerc img{
+	width: 20%;
+}
+.contact .innerc h1{
+	font-size: 50px;
+}
