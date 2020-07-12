@@ -1,25 +1,29 @@
 body{
 	margin: 0px;
 	width:100%;
+	font-family: 'Merienda One', cursive;
 }
 .bar{
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
 	float: right;
-
 }
-
-ul#horizontal-list li {
-	    padding: 20px;
-		display: inline;
-		text-align: center;
-		color:#f9f9f9;
-		font-size: 20px;
-		font-weight: bold;
-	}
+#horizontal-list li a{
+	text-decoration: none;
+	color:#f9f9f9;
+}
+#horizontal-list li {
+    padding: 20px;
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
 #menu-outer {
+	width:100%;
 	height: 55px;
 	background-color: #ffacb7;
+	position: fixed;
 }
 .home{
 	background-color: #ffe0ac;
@@ -59,15 +63,17 @@ ul#horizontal-list li {
 .education{
 	background-color:#6886c5;
 	display:table;
+	vertical-align: bottom;;
 	height: 100vh;
 	width: 100%;
 }
 .education .inneredu{
 	text-align: center;
 	margin-left: 10px;
-	margin-top: 20px;
+	margin-top: 35px;
 }
 .education .inneredu img{
+	margin-top:20px;
 	width:16%;
 }
 .education .inneredu div{
@@ -121,6 +127,9 @@ ul#horizontal-list li {
 	height: 100vh;
 	width:100%;
 	text-align: center;
+}
+.contact .innerc{
+	margin-top:40px;
 }
 .contact .innerc img{
 	width: 20%;
